@@ -33,31 +33,30 @@ pip install -r requirements.txt
 
 ### Spread Prediction
 
-```
 The ticker can be defined at the start of the script. All model functionalities are contained within the model object. This object
 contains two seperate functions for training and forecasting the data:
 
+```
 # Train the model
 model.train_model()
 # Execute the forecast
 testing_segment['output'] = model.forecast()
-
-To execute the forecast, simply run 'python spread_prediction.py' on your terminal
 ```
+To execute the forecast, simply run 'python spread_prediction.py' on your terminal
+
 
 ### Funding Rate Prediction
 
-```
 The ticker can be defined at the start of the script. All model functionalities are contained within the model object. This object
 contains two seperate functions for training and forecasting the data:
 
+```
 # Train the model
 model.train_model()
 # Execute the forecast
 testing_segment['output'] = model.forecast()
-
-To execute the forecast, simply run 'python funding_rate_prediction.py' on your terminal
 ```
+To execute the forecast, simply run 'python funding_rate_prediction.py' on your terminal
 
 ## Model Configuration
 
@@ -70,13 +69,13 @@ Default XGBoost parameters:
 
 ### Hyperparameter Tuning
 
-```
 Optionally, there is a hyperparameter tuning function:
 
+```
 model.window_calibrate(window_size=window_size)
+```
 
 However, it can be slow depending on your window size
-```
 
 ## Performance Metrics
 
