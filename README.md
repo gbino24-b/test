@@ -1,6 +1,4 @@
-# Cryptocurrency Funding Rate & Spread Prediction
-
-A machine learning framework for predicting cryptocurrency perpetual futures funding rates and spreads using XGBoost regression models.
+# Blockhouse Assessment
 
 ## Overview
 
