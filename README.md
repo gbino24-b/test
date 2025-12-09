@@ -2,8 +2,6 @@
 
 ## Overview
 
-This project provides tools to analyze and predict two key metrics in cryptocurrency perpetual futures markets:
-
 1. *Task 1*: Forecast the spread defined as the difference between the last price and the index price for perpetual futures
 2. *Task 2*: Forecast the funding rate at the next funding time
 
